@@ -2,6 +2,7 @@ import { Form } from './Form';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './Header';
 import { Home } from './Home';
+import { Consult } from './Consult';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cadastro" element={<Form />} />
+            <Route path="/consultar" element={<Consult />} />
           </Routes>
         </div>
       </div>

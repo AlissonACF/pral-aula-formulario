@@ -6,6 +6,7 @@ export function Header() {
             <nav className='flex p-4 gap-2 bg-blue-400 text-white font-bold'>
                 <Link to="/">INICIO</Link>
                 <Link to="/cadastro">CADASTRAR</Link>
+                <Link to="/consultar">CONSULTAR</Link>
             </nav>
         </header>
     )
